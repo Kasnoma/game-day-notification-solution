@@ -76,10 +76,12 @@ If you dont already have an AWS account you can create a free tier account using
 6. Under the Function Code section:
    
     a.Copy the content of the src/game-day-notifications.py file from the repository.
+   
     b. Paste it into the inline code editor.
-7. Under the Environment Variables section, add the following:
+8. Under the Environment Variables section, add the following:
    
     a. NBA_API_KEY: your NBA API key.
+   
     b.  SNS_TOPIC_ARN: the ARN of the SNS topic created earlier.
 10. Click Create Function
 
