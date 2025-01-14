@@ -8,13 +8,13 @@ This project is a serverless application that fetches sports game data from an e
 
 ## Project Structure
 
-`game-day-notifications/
-├── src/
-│   ├── game-day-notifications.py
-├── iam policies/
-│   ├── sns_policy.json 
-├── .gitignore
-└── README.md`                  
+```game-day-notifications/
+   ├── src/
+   │   ├── game-day-notifications.py
+   ├── iam policies/
+   │   ├── sns_policy.json 
+   ├── .gitignore
+   └── README.md`                  
 
 ## Prerequisites
 Before you commence this project, you must have the following:
