@@ -8,13 +8,23 @@ This project is a serverless application that fetches sports game data from an e
 
 ## Project Structure
 
+game-day-notifications/
+├── src/
+│   ├── gd_notifications.py          # Main Lambda function code
+├── policies/
+│   ├── gb_sns_policy.json           # SNS publishing permissions
+│   ├── gd_eventbridge_policy.json   # EventBridge to Lambda permissions
+│   └── gd_lambda_policy.json        # Lambda execution role permissions
+├── .gitignore
+└── README.md                        # Project documentation
+
 `game-day-notifications/
 ├── src/
 │   ├── game-day-notifications.py
 ├── iam policies/
 │   ├── sns_policy.json 
 ├── .gitignore
-└── README.md`                    
+└── README.md                   
 
 ## Prerequisites
 Before you commence this project, you must have the following:
